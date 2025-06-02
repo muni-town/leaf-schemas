@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content",
+  "description": "Rich text content for the entity.",
+  "type": "string"
+}

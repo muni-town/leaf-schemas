@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Channels",
+  "description": "An ordered list of Entity IDs for Roomy channels or channel Collections.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "Entity ID of a Roomy channel or channel collection"
+  },
+  "additionalProperties": false
+}

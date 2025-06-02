@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ImageUri",
+  "description": "An image from a URI.",
+  "type": "object",
+  "properties": {
+    "uri": {
+      "type": "string",
+      "description": "The URI of the image"
+    },
+    "width": {
+      "type": "number",
+      "description": "The width of the image in pixels"
+    },
+    "height": {
+      "type": "number",
+      "description": "The height of the image in pixels"
+    },
+    "alt": {
+      "type": "string",
+      "description": "Alternative text description of the image"
+    }
+  },
+  "required": ["uri"],
+  "additionalProperties": false
+}

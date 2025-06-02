@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChannelAnnouncement",
+  "description": "Metadata for a channel announcement, which is a message that might get inserted into a channel timeline for various reasons.",
+  "type": "object",
+  "properties": {
+    "kind": {
+      "type": "string",
+      "description": "The type of announcement",
+      "enum": ["messageMoved", "messageDeleted", "threadCreated"],
+      "default": "unknown"
+    }
+  },
+  "required": ["kind"],
+  "additionalProperties": false
+}

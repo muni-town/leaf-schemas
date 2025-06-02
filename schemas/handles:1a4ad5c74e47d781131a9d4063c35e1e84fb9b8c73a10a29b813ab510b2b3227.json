@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Handles",
+  "description": "The DNS handles that are associated to this entity. The first one is considered the primary one.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "A DNS handle associated with the entity"
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AuthorUris",
+  "description": "The DIDs (Decentralized Identifiers) for the authors of the given entity.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "DID of an author"
+  },
+  "additionalProperties": false
+}

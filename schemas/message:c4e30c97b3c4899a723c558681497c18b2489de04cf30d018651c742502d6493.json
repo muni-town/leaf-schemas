@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Message",
+  "description": "Marker component for messages.",
+  "type": "boolean",
+  "const": true
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Images",
+  "description": "An ordered list of Entity IDs for images or image Collections. Each image should have an ImageUri component.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "Entity ID of an image or image collection"
+  },
+  "additionalProperties": false
+}

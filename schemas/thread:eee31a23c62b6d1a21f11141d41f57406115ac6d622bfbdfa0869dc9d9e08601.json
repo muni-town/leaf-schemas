@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Thread",
+  "description": "Marker component for threads.",
+  "type": "boolean",
+  "const": true
+}

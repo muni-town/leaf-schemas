@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Spaces",
+  "description": "A list of Entity IDs for Roomy spaces.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "Entity ID of a Roomy space"
+  },
+  "additionalProperties": false
+}

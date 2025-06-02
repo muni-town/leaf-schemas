@@ -1,0 +1,16 @@
+{
+  "name": "leaf-schemas",
+  "version": "1.0.0",
+  "description": "A central repository of Leaf Component Schemas",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "hash-schemas.js",
+  "scripts": {
+    "hash-schemas": "node hash-schemas.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "canonicalize": "^2.1.0"
+  }
+}

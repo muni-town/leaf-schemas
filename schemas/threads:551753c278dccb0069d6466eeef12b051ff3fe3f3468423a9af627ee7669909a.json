@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Threads",
+  "description": "An ordered list of Roomy threads or thread Collections.",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "description": "Entity ID of a Roomy thread or thread collection"
+  },
+  "additionalProperties": false
+}

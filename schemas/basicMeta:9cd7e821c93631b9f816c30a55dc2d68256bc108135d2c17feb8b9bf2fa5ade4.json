@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BasicMeta",
+  "description": "The display name, slug, short description, and image / icon URI of an entity.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The display name of the entity"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly version of the name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of the entity"
+    },
+    "image": {
+      "type": "string",
+      "description": "The entity ID of an entity with an ImageUri component"
+    },
+    "createdDate": {
+      "type": "number",
+      "description": "Unix timestamp for the date that the entity was created"
+    },
+    "updatedDate": {
+      "type": "number",
+      "description": "Unix timestamp for the date that the entity was last updated"
+    }
+  },
+  "required": ["name"],
+  "additionalProperties": false
+}

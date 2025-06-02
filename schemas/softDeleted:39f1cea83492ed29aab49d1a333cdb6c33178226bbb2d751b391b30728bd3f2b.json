@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SoftDeleted",
+  "description": "Entities with this marker component have been soft deleted and should be shown as deleted usually in the UI, even though the data is preserved.",
+  "type": "boolean",
+  "const": true
+}

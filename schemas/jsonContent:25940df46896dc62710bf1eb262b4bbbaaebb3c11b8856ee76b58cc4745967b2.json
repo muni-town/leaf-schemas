@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JsonContent",
+  "description": "Temporary placeholder to stand in for Content until we figure out how to convert our rich text to LoroText.",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string",
+      "description": "The JSON encoded content from the rich text editor"
+    }
+  },
+  "required": ["content"],
+  "additionalProperties": false
+}
